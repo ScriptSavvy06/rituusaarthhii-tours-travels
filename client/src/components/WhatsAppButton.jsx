@@ -2,7 +2,7 @@ import React from 'react';
 import { MessageCircle } from 'lucide-react';
 
 const WhatsAppButton = () => {
-    const phoneNumber = '98238847850';
+    const phoneNumber = '9238847850';
     const message = 'Hello Rituu Saarthhii, I am interested in your tour packages.';
 
     return (
@@ -19,4 +19,5 @@ const WhatsAppButton = () => {
 };
 
 export default WhatsAppButton;
+
 
