@@ -9,7 +9,11 @@ const app = express();
 
 // Middleware
 app.use(cors({
-    origin: process.env.FRONTEND_URL || 'http://localhost:5173',
+    // Add your live Vercel URL to this array
+    origin: [
+        'http://localhost:5173', 
+        'https://rituusaarthhii-tours-travels.vercel.app' // <--- REPLACE THIS with your real Vercel link
+    ],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true
 }));
@@ -43,4 +47,5 @@ mongoose.connect(process.env.MONGODB_URI)
     .catch(err => {
         console.error('❌ MongoDB connection error:', err.message);
         process.exit(1); // Stop the server if the DB connection fails
+
     });
