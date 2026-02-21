@@ -39,7 +39,6 @@ A full-stack, production-ready website for a travel agency specializing in spiri
 ## Deployment
 - **Frontend**: Ready for Vercel. Connect your GitHub and select the `client` folder.
 - **Backend**: Ready for Render or Railway. Deploy the `server` folder and set the environment variables.
+- Live Example: https://rituusaarthhii-tours-travels.vercel.app/
 
-## Credentials (Simulation)
-- **Admin Username**: `admin`
-- **Admin Password**: `admin123`
+
